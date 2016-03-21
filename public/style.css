@@ -7,7 +7,6 @@ body {
     linear-gradient(-45deg, #a2bcf3 25%, transparent 25%, transparent 75%, #a2bcf3 75%, #a2bcf3);
   background-size:100px 100px;
 
-
 }
 
 main {
@@ -87,4 +86,10 @@ main button {
 
   color: white;
   text-shadow: 0px 3px 2px rgba(85, 107, 47, 1);
+}
+
+@media (max-width: 420px) {
+  main {
+    width: 100vw;
+  }
 }
