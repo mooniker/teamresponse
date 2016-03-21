@@ -1,0 +1,11 @@
+html
+  head
+    title Admin with fake login
+  body
+    h1 Admins Only
+    form(name="login", action="/admin", method="post")
+      label(for="username") username
+      input(name="username", type="text")
+      label(for="password") password
+      input(name="password", type="password")
+      input(type="submit", value="login")
