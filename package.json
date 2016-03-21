@@ -14,5 +14,13 @@
     "jade": "^1.11.0",
     "mongoose": "^4.4.8"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooniker/teamresponse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mooniker/teamresponse/issues"
+  },
+  "homepage": "https://github.com/mooniker/teamresponse#readme"
 }
