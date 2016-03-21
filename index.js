@@ -83,6 +83,6 @@ var pathToPublic = path.join(__dirname, 'public');
 // serve whatever's in public as is
 app.use(express.static(pathToPublic));
 
-app.listen(4000, function() {
-  console.log('Team Response up and running.');
+app.listen(env.PORT, function() {
+  console.log('Team Response up and running on port ' + env.PORT + '.');
 });
