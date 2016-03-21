@@ -92,4 +92,7 @@ main button {
   main {
     width: 100vw;
   }
+  main h1 {
+    margin: 0.2em 0 0 0;
+  }
 }
